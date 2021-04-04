@@ -1,3 +1,10 @@
+html  {
+    font-family: sans-serif;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0,);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 body {
     font-size: 14px;
     margin: 0;
@@ -106,7 +113,7 @@ section {
 .clearfix:after,
 .container:after
 .navbar:after  {
-    clear:both;
+    clear: both;
     display: table;
     content: " ";
 }
@@ -133,8 +140,8 @@ section {
 }
 
 /*--------------Home section styles-----------*/
-#home  {
-    background: url("./Thumb/planets.jpg") no-repeat 50% 50%;
+#HOME  {
+    background: url("../Thumb/planets.jpg") no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -183,7 +190,7 @@ section {
 
 /*---------------Contact styles----------*/
 
-.flex .container  {
+.flex-container  {
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
@@ -205,7 +212,7 @@ section {
     background-color: rgba(100, 65, 0,.3);
     box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5);
 }
-.reservations h2 {
+.reservation h2 {
     width: 70%;
     text-align: center;
     margin: 0 auto;
@@ -249,7 +256,7 @@ section {
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input [type="text"]  {
+.reservationinput [type="text"]  {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -295,7 +302,7 @@ section {
 }
 
 .submit input[type="submit"]  {
-    color: rbga(225,225,225);
+    color: rgba(225,225,225);
     cursor: pointer;
     border: none;
     font-weight: 900;
