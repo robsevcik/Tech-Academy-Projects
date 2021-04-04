@@ -134,7 +134,7 @@ section {
 
 /*--------------Home section styles-----------*/
 #home  {
-    background: url(./Thumb/planets.jpg) no-repeat 50% 50%;
+    background: url("./Thumb/planets.jpg") no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -149,16 +149,16 @@ section {
 }
 
 .head-main  {
-    text-shadow: 2px 4px 5px rgba(0,0,0,0.9)
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
     font-variant: small-caps;
-    color #fff;
+    color: #fff;
     letter-spacing: 5pt;
     word-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5em;
     text-align: left;
     font-family: impact, sans-serif;
-    line height: 2;
+    line-height: 2;
     font-width: 900;
     border: 5px double #fff;
     padding: 10px;
@@ -183,14 +183,14 @@ section {
 
 /*---------------Contact styles----------*/
 
-.flex container  {
+.flex .container  {
     display: -webkit-flex;
     display: flex;
-    flex wrap: wrap;
+    flex-wrap: wrap;
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background color: rgba(100,65,0,.3);
+    background-color: rgba(100,65,0,.3);
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
@@ -238,7 +238,7 @@ section {
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8d8e8f ;
+    color: #8d8e8f;
     padding: 12px 12px;
     width: 70%;
     border: 1px solid #808080;
@@ -308,7 +308,7 @@ section {
     font-size: 18px;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
-    background color: #797a7b;
+    background-color: #797a7b;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
 }
 
